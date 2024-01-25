@@ -35,7 +35,7 @@ public class form1 {
     private JTextField funciones;
     private JTextField var;
 
-    public form1() {
+    public form1(){
         a1Button.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
