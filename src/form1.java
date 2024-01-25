@@ -98,7 +98,7 @@ public class form1 {
         });
         button12.addActionListener(new ActionListener() {
             @Override
-            public void actionPerformed(ActionEvent e) {
+            public void actionPerformed(ActionEvent e){
                 texto.setText(texto.getText()+".");
             }
         });
