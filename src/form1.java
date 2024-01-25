@@ -156,6 +156,8 @@ public class form1 {
                     }
                 } else if (fun.equals("cos")) {
                     String com= var.getText();
+
+
                     if (com.equals("")){
                         texto.setText(Double.toString(Math.cos(Double.parseDouble(texto.getText()))));
                     }
@@ -183,6 +185,8 @@ public class form1 {
                     }
                 } else if (fun.equals("√")) {
                     String com= var.getText();
+
+
                     if (com.equals("")){
                         texto.setText(Double.toString(Math.sqrt(Double.parseDouble(texto.getText()))));
                     }
@@ -194,6 +198,7 @@ public class form1 {
                     texto.setText(Double.toString(Double.parseDouble(var.getText())%Double.parseDouble(texto.getText())));
                 } else if (fun.equals("log")) {
                     String com= var.getText();
+
                     if (com.equals("")){
                         texto.setText(Double.toString(Math.log10(Double.parseDouble(texto.getText()))));
                     }
@@ -214,6 +219,7 @@ public class form1 {
                     }
                 } else if (fun.equals("π")) {
                     String com= var.getText();
+
                     if (com.equals("")){
                         texto.setText("3.14159265359");
                     } else{
@@ -292,8 +298,10 @@ public class form1 {
         });
         lnButton.addActionListener(new ActionListener() {
             @Override
+
             public void actionPerformed(ActionEvent e) {
-                funciones.setText("ln");
+
+                funciones.setText("lna");
                 var.setText(texto.getText());
                 texto.setText("");
             }
