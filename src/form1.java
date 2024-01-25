@@ -144,8 +144,10 @@ public class form1 {
                 }
                 else if (fun.equals("-")) {
                     texto.setText(Double.toString(Double.parseDouble(var.getText())-Double.parseDouble(texto.getText())));
+
                 } else if (fun.equals("x")) {
                     texto.setText(Double.toString(Double.parseDouble(texto.getText())*Double.parseDouble(var.getText())));
+
                 } else if (fun.equals("/")) {
                     try {
                         texto.setText(Double.toString(Double.parseDouble(var.getText())/Double.parseDouble(texto.getText())));
