@@ -238,6 +238,7 @@ public class form1 {
                 var.setText(texto.getText());
                 texto.setText("");
             }
+
         });
         senButton.addActionListener(new ActionListener() {
             @Override
@@ -253,6 +254,7 @@ public class form1 {
                 funciones.setText("Tan");
                 var.setText(texto.getText());
                 texto.setText("");
+
             }
         });
         button7.addActionListener(new ActionListener() {
@@ -262,6 +264,7 @@ public class form1 {
                 var.setText(texto.getText());
                 texto.setText("");
             }
+
         });
         button8.addActionListener(new ActionListener() {
             @Override
