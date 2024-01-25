@@ -20,8 +20,8 @@ public class form1 {
     private JButton a2Button;
     private JButton a3Button;
     private JButton a4Button;
-    private JButton button17;
-    private JButton button18;
+    private JButton button9;
+    private JButton button10;
     private JButton a5Button;
     private JButton a6Button;
     private JButton a7Button;
@@ -29,8 +29,8 @@ public class form1 {
     private JButton xButton;
     private JButton a9Button;
     private JButton a0Button;
-    private JButton button26;
-    private JButton button27;
+    private JButton button11;
+    private JButton button12;
     JPanel calculadora;
     private JTextField funciones;
     private JTextField var;
@@ -96,13 +96,13 @@ public class form1 {
                 texto.setText(texto.getText()+"0");
             }
         });
-        button27.addActionListener(new ActionListener() {
+        button12.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
                 texto.setText(texto.getText()+".");
             }
         });
-        button17.addActionListener(new ActionListener() {
+        button9.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
                 funciones.setText("+");
@@ -110,7 +110,7 @@ public class form1 {
                 texto.setText("");
             }
         });
-        button18.addActionListener(new ActionListener() {
+        button10.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
                 funciones.setText("-");
@@ -126,7 +126,7 @@ public class form1 {
                 texto.setText("");
             }
         });
-        button26.addActionListener(new ActionListener() {
+        button11.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
                 funciones.setText("/");
