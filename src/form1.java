@@ -232,7 +232,7 @@ public class form1 {
         cosButton.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
-                funciones.setText("cos");
+                funciones.setText("Cos");
                 var.setText(texto.getText());
                 texto.setText("");
             }
@@ -240,7 +240,7 @@ public class form1 {
         senButton.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
-                funciones.setText("sen");
+                funciones.setText("Sin");
                 var.setText(texto.getText());
                 texto.setText("");
             }
@@ -248,7 +248,7 @@ public class form1 {
         tanButton.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
-                funciones.setText("tan");
+                funciones.setText("Tan");
                 var.setText(texto.getText());
                 texto.setText("");
             }
